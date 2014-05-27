@@ -1,0 +1,8 @@
+{
+    "name": "lortnus/datagrid",
+    "description": "DataGrid",
+	"version": "1.0",
+    "require": {
+        "php": ">=5.1.0"
+    }
+}
