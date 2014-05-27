@@ -53,7 +53,7 @@ class Core_DataGrid_DataSource_ZendDB implements Core_DataGrid_DataSource_Interf
 		$this->setConnection($conn);
 
 		if(!is_string($query)){
-			require_once 'Core/DataGrid/DataSource/Exception.php';
+			require_once 'DataGrid/DataSource/Exception.php';
 			throw new Core_DataGrid_DataSource_Exception('Core_DataGrid_DataSource_ZendDB: Query parameter must be a string');
 		}
 
