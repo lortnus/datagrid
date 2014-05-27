@@ -17,7 +17,7 @@
 /**
  * @see Core_DataGrid_Interface
  */
-require_once 'Core/DataGrid/Abstract/Interface.php';
+require_once 'DataGrid/Abstract/Interface.php';
 
 abstract class Core_DataGrid_Abstract implements Core_DataGrid_Abstract_Interface, Countable, IteratorAggregate
 {

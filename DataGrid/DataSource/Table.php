@@ -17,7 +17,7 @@
 /**
  * @see Core_DataGrid_DataSource_Interface
  */
-require_once 'Core/DataGrid/DataSource/Interface.php';
+require_once 'DataGrid/DataSource/Interface.php';
 
 class Core_DataGrid_DataSource_Table implements Core_DataGrid_DataSource_Interface
 {
