@@ -16,30 +16,30 @@
 /**
  * @see Core_DataGrid_Interface
  */
-require_once 'Core/DataGrid/Abstract.php';
+require_once 'DataGrid/Abstract.php';
 
 /**
  * @see Core_DataGrid_Interface
  */
-require_once 'Core/DataGrid/Interface.php';
-require_once 'Core/DataGrid/Column.php';
-require_once 'Core/DataGrid/Render.php';
-require_once 'Core/DataGrid/Pager.php';
-require_once 'Core/DataGrid/Render/Abstract.php';
-require_once 'Core/DataGrid/Render/Interface.php';
-require_once 'Core/DataGrid/Render/ZendView.php';
-require_once 'Core/DataGrid/Pager/Abstract/Standard.php';
-require_once 'Core/DataGrid/Pager/Abstract/Interface.php';
-require_once 'Core/DataGrid/Pager/Abstract.php';
+require_once 'DataGrid/Interface.php';
+require_once 'DataGrid/Column.php';
+require_once 'DataGrid/Render.php';
+require_once 'DataGrid/Pager.php';
+require_once 'DataGrid/Render/Abstract.php';
+require_once 'DataGrid/Render/Interface.php';
+require_once 'DataGrid/Render/ZendView.php';
+require_once 'DataGrid/Pager/Abstract/Standard.php';
+require_once 'DataGrid/Pager/Abstract/Interface.php';
+require_once 'DataGrid/Pager/Abstract.php';
 
-require_once 'Core/DataGrid/Column/Renderer/Interface.php';
-require_once 'Core/DataGrid/Column/Renderer/Abstract.php';
-require_once 'Core/DataGrid/Column/Renderer/Text.php';
-require_once 'Core/DataGrid/Column/Renderer/Options.php';
-require_once 'Core/DataGrid/Column/Renderer/Number.php';
-require_once 'Core/DataGrid/Column/Renderer/Longtext.php';
-require_once 'Core/DataGrid/Column/Renderer/Link.php';
-require_once 'Core/DataGrid/Column/Renderer/Action.php';
+require_once 'DataGrid/Column/Renderer/Interface.php';
+require_once 'DataGrid/Column/Renderer/Abstract.php';
+require_once 'DataGrid/Column/Renderer/Text.php';
+require_once 'DataGrid/Column/Renderer/Options.php';
+require_once 'DataGrid/Column/Renderer/Number.php';
+require_once 'DataGrid/Column/Renderer/Longtext.php';
+require_once 'DataGrid/Column/Renderer/Link.php';
+require_once 'DataGrid/Column/Renderer/Action.php';
 
 class Core_DataGrid extends Core_DataGrid_Abstract implements Core_DataGrid_Interface
 {
@@ -127,7 +127,7 @@ class Core_DataGrid extends Core_DataGrid_Abstract implements Core_DataGrid_Inte
 			/**
 			 * @see Core_DataGrid_Exception
 			 */
-			require_once 'Core/DataGrid/Exception.php';
+			require_once 'DataGrid/Exception.php';
 			throw new Core_DataGrid_Exception('Invalid Parmas for DataGrid: '.$errors);
 		}
 
@@ -288,7 +288,7 @@ class Core_DataGrid extends Core_DataGrid_Abstract implements Core_DataGrid_Inte
 			/**
 			 * @see Core_DataGrid_Exception
 			 */
-			require_once 'Core/DataGrid/Exception.php';
+			require_once 'DataGrid/Exception.php';
 			throw new Core_DataGrid_Exception("Cannot fetch data: no datasource driver loaded.");
 		}
 
@@ -316,7 +316,7 @@ class Core_DataGrid extends Core_DataGrid_Abstract implements Core_DataGrid_Inte
 			/**
 			 * @see Core_DataGrid_Exception
 			 */
-			require_once 'Core/DataGrid/Exception.php';
+			require_once 'DataGrid/Exception.php';
 			throw new Core_DataGrid_Exception("Cannot sort data: OrderBy or Direction are empty.");
 		}
 
@@ -356,7 +356,7 @@ class Core_DataGrid extends Core_DataGrid_Abstract implements Core_DataGrid_Inte
 			/**
 			 * @see Core_DataGrid_Exception
 			 */
-			require_once 'Core/DataGrid/Exception.php';
+			require_once 'DataGrid/Exception.php';
 			throw new Core_DataGrid_Exception('Wrong column format');
 		}
 
@@ -412,7 +412,7 @@ class Core_DataGrid extends Core_DataGrid_Abstract implements Core_DataGrid_Inte
 			/**
 			 * @see Core_DataGrid_Exception
 			 */
-			require_once 'Core/DataGrid/Exception.php';
+			require_once 'DataGrid/Exception.php';
 			throw new Core_DataGrid_Exception("Cannot render columns: the columns are empty.");
 		}
 
