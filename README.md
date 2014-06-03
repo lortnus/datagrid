@@ -1,4 +1,4 @@
-datagrid
+DataGrid
 ========
 
-Datagrid
+DataGrid
