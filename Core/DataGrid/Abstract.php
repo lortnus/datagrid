@@ -17,7 +17,7 @@
 /**
  * @see Core_DataGrid_Interface
  */
-require_once 'DataGrid/Abstract/Interface.php';
+require_once 'Core/DataGrid/Abstract/Interface.php';
 
 abstract class Core_DataGrid_Abstract implements Core_DataGrid_Abstract_Interface, Countable, IteratorAggregate
 {
@@ -104,7 +104,7 @@ abstract class Core_DataGrid_Abstract implements Core_DataGrid_Abstract_Interfac
 			/**
 			 * @see Core_DataGrid_Abstract_Exception
 			 */
-			require_once 'DataGrid/Abstract/Exception.php';
+			require_once 'Core/DataGrid/Abstract/Exception.php';
 			throw new Core_DataGrid_Abstract_Exception('Invalid number of records ' . $limit);
 		}
 
@@ -189,7 +189,7 @@ abstract class Core_DataGrid_Abstract implements Core_DataGrid_Abstract_Interfac
 				/**
 				 * @see Core_DataGrid_Abstract_Exception
 				 */
-				require_once 'DataGrid/Abstract/Exception.php';
+				require_once 'Core/DataGrid/Abstract/Exception.php';
 				throw new Core_DataGrid_Abstract_Exception("Cannot fetch data: no datasource driver loaded.");
 			}
 		}
@@ -203,7 +203,7 @@ abstract class Core_DataGrid_Abstract implements Core_DataGrid_Abstract_Interfac
 			/**
 			 * @see Core_DataGrid_Abstract_Exception
 			 */
-			require_once 'DataGrid/Abstract/Exception.php';
+			require_once 'Core/DataGrid/Abstract/Exception.php';
 			throw new Core_DataGrid_Abstract_Exception("Message Exception: " . $e->getMessage() . "\n");
 		}
 		return $this;

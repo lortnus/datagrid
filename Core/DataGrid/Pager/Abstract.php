@@ -17,7 +17,7 @@
 /**
  * @see Core_DataGrid_Pager_Abstract_Interface
  */
-require_once 'DataGrid/Pager/Abstract/Interface.php';
+require_once 'Core/DataGrid/Pager/Abstract/Interface.php';
 
 abstract class Core_DataGrid_Pager_Abstract implements Core_DataGrid_Pager_Abstract_Interface
 {

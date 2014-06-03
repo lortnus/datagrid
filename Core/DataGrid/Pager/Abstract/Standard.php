@@ -17,7 +17,7 @@
 /**
  * @see Core_DataGrid_Pager_Abstract
  */
-require_once 'DataGrid/Pager/Abstract.php';
+require_once 'Core/DataGrid/Pager/Abstract.php';
 
 class Core_DataGrid_Pager_Abstract_Standard extends Core_DataGrid_Pager_Abstract
 {
